@@ -28,10 +28,19 @@ h1 {
 	font-family: 'Exo', sans-serif;
 	margin-top: 30em;
 	border-radius: 300px;
+	border-color: transparent;
 }
 
 .btn:hover{
 	transform: scale(1.1);
+}
+
+html { 
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body { 
