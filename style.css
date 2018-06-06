@@ -28,6 +28,7 @@ h1 {
 	font-family: 'Sunflower', sans-serif;
 	font-family: 'Exo', sans-serif;
 	margin-top: 30em;
+	border-radius: 300px;
 }
 
 .btn:hover{
