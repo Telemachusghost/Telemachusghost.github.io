@@ -1,0 +1,43 @@
+
+
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sunflower', sans-serif;
+	font-family: 'Exo', sans-serif;
+	color: rgba(252, 248, 242,0.9);
+	text-shadow: 
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn {
+	color: rgba(252, 248, 242,0.9);
+	align-self:center;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Sunflower', sans-serif;
+	font-family: 'Exo', sans-serif;
+	margin-top: 30em;
+}
+
+.btn:hover{
+	transform: scale(1.1);
+}
+
+body { 
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
