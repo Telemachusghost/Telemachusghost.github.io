@@ -18,6 +18,9 @@ h1 {
 	background-image: url("header.jpg");
 	height: 100%;
 	background-size: cover;
+	justify-content: center;
+	align-content:center;
+	margin-bottom: 0;
 }
 
 .container {
@@ -33,13 +36,15 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Sunflower', sans-serif;
 	font-family: 'Exo', sans-serif;
-	margin-top: 30em;
+	/*margin-top: 30em;*/
+	padding: 1rem 2rem;
 	border-radius: 300px;
 	border-color: transparent;
 }
 
 .btn:hover{
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 
